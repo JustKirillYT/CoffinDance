@@ -11,11 +11,12 @@ public class OrderButtonClick : MonoBehaviour
     public Order order;
     public void OnMouseDown()
     {
-     
+        
         if (!isCreated) {
             order = manager.CreateOrder();
             Debug.Log(order);
             manager.DisplayOrderDetails(order);
+            CurrentDataOrder.CurrentOrder = order;
             isCreated = true;
         }
         else

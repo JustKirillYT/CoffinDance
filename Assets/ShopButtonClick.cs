@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Profiling;
 using UnityEngine.UIElements;
 
 public class ShopButtonClick : MonoBehaviour
@@ -31,6 +32,7 @@ public class ShopButtonClick : MonoBehaviour
     }
     private void OnMouseDown()
     {
+
         isOpen = !isOpen;
         targetPosition = isOpen ? visiblePosition : hiddenPosition;
 

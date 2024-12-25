@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ShopPanelAnimatorController : MonoBehaviour
 {
+    [SerializeField] string Name;
     private Animator animator;
 
 

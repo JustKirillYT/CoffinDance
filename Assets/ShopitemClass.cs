@@ -7,21 +7,19 @@ using UnityEngine.UI;
 public class ShopItemClass : MonoBehaviour
 {
     [SerializeField]
-    private float Cost;
+    public float Cost;
     [SerializeField]
-    private string Quanity;
+    public string Quanity;
     [SerializeField]
-    private string Name;
+    public string Name;
     [SerializeField]
-    private TextMeshProUGUI Description;
+    public string Type;
+    [SerializeField]
+    public Sprite sprite;
+    [SerializeField]
+    public TextMeshProUGUI Description;
     private GameObject obj;
 
-    public void Start()
-    {
-        var img = GetComponent<Image>();
-        obj = GetComponent<GameObject>();
-        Description.text = $"Название: {Name}\n" +
-            $"Цена: {Cost}\n " +
-            $"Качество: {Quanity}\n";
-    }
+
+
 }
