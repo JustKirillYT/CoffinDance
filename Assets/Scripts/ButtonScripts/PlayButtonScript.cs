@@ -9,8 +9,9 @@ public class SceneManagerScript : MonoBehaviour
     private string SceneToPlay;
     // Start is called before the first frame update
     public void ToPlayScene()
+        
     {
-        SceneManager.LoadScene(SceneToPlay);
+            SceneManager.LoadScene(SceneToPlay);
     }
 
     public void OnMouseDown()
