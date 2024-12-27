@@ -17,6 +17,7 @@ public class ShopItemClass : MonoBehaviour
     [SerializeField]
     public Sprite sprite;
     [SerializeField]
+    public GameObject Prefab;
     public TextMeshProUGUI Description;
     private GameObject obj;
 

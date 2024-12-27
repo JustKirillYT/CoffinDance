@@ -7,7 +7,6 @@ public class OrderButtonClick : MonoBehaviour
     [SerializeField]
     public OrderManager manager;
     public bool isCreated = false;
-    [SerializeField]
     public Order order;
     public void OnMouseDown()
     {
@@ -16,7 +15,6 @@ public class OrderButtonClick : MonoBehaviour
             order = manager.CreateOrder();
             Debug.Log(order);
             manager.DisplayOrderDetails(order);
-            CurrentDataOrder.CurrentOrder = order;
             isCreated = true;
         }
         else
@@ -27,10 +25,5 @@ public class OrderButtonClick : MonoBehaviour
             manager.DisplayOrderDetails(order);
         }
 
-    }
-
-    public void OnMouseEnter()
-    {
-        
     }
 }

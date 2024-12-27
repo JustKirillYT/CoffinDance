@@ -44,9 +44,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0776ae606892b40458124dccfedbff08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Cost: 0
+  Cost: 200
   Quanity: "\u042D\u043A\u043E\u043D\u043E\u043C"
   Name: "\u0420\u043E\u043C\u0430\u0448\u043A\u0438 \u0441 \u043F\u043E\u043C\u043E\u0439\u043A\u0438"
   Type: "\u0426\u0432\u0435\u0442\u044B"
   sprite: {fileID: 21300000, guid: 230aae625e18e5b46bbb5566c200c49f, type: 3}
+  Prefab: {fileID: 2651628549360534741, guid: e4264e24176ea564d91e54e782e0e323, type: 3}
   Description: {fileID: 0}
